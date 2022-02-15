@@ -1,3 +1,7 @@
+:root{
+  --main-color: #B5FFE1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +16,8 @@ body{
 .container{
   width: 25em;
   height: auto;
+
+  background-color: var(--main-color);
 
   margin: auto;
 
@@ -30,6 +36,15 @@ body{
 }
 
 input[type="number"]{
+  padding: 0.5em;
+
+  background-color: transparent;
+
+  border: none;
+  border-bottom: 1px solid #388697;
+}
+
+input[type="button"]{
   padding: 0.5em;
 }
 
