@@ -5,17 +5,30 @@
 * {
   margin: 0;
   padding: 0;
+
+  box-sizing: border-box;
 }
 
 body{
-  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
 
   min-width: 405px;
 }
 
+.test{
+  width: 100%;
+  height: 100vh;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
 .container{
   width: 25em;
-  height: auto;
+  height: 25em;
 
   background-color: var(--main-color);
 
@@ -28,8 +41,9 @@ body{
   align-items: center;
 }
 
-#dados{
+#container_dados{
   width: 15em;
+
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -44,7 +58,23 @@ input[type="number"]{
   border-bottom: 1px solid #388697;
 }
 
+input[type="number"]:focus{
+}
+
 input[type="button"]{
   padding: 0.5em;
+
+}
+
+#container_resultado{
+  height: 100%;
+}
+
+#resultado{
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5;
 }
 

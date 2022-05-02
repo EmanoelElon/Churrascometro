@@ -8,19 +8,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-      <h1 id="title">Churrascometro</h1>
-
-      <div id="dados">
-        <input type="number" name="adulto" id="adulto" placeholder="Adulto">
-        <input type="number" name="criancas" id="criancas" placeholder="Crianças">
-        <input type="number" name="duracao" id="duracao" placeholder="Duração(h)">
-      </div>
-      
-      <input type="button" value="Calcular">
+  <div class="teste">
+    
+    <div class="container">
+        <h1 id="title">Churrascometro</h1>
   
-      <div id="resultado">
+        <div id="container_dados">
+          <input type="number" name="adulto" id="adulto" placeholder="Adulto">
+          <input type="number" name="criancas" id="criancas" placeholder="Crianças">
+          <input type="number" name="duracao" id="duracao" placeholder="Duração(h)">
+        </div>
+        
+        <input type="button" value="Calcular" onclick="calcular()">
+    
+        <div id="container_resultado">
+          <div id="resultado">
 
+          </div>
+        </div>
       </div>
     </div>
   </div>
