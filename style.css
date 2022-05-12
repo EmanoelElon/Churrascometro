@@ -1,5 +1,6 @@
 :root{
   --main-color: #B5FFE1;
+  --font: 'Arial';
 }
 
 * {
@@ -7,6 +8,8 @@
   padding: 0;
 
   box-sizing: border-box;
+
+  font-family: var(--font);
 }
 
 body{
@@ -59,6 +62,7 @@ input[type="number"]{
 }
 
 input[type="number"]:focus{
+  border: none;
 }
 
 input[type="button"]{
@@ -66,15 +70,14 @@ input[type="button"]{
 
 }
 
-#container_resultado{
-  height: 100%;
-}
-
 #resultado{
-  height: auto;
+  width: 15em;
+  height: 100%;
+
+  text-align: left;
 
   display: flex;
   flex-direction: column;
-  gap: 1.5;
+  gap: 1.5rem;
 }
 

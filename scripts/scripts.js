@@ -20,9 +20,11 @@ function calcular(){
 
   console.log("Total Carne: " + qtdTotalCarne + "Total Cerveja: " + qtdTotalCerveja);
 
-  resultado.innerHTML = `<p>${qtdTotalCarne}g de Carne</p>`;
-  resultado.innerHTML = `<p>${qtdTotalCerveja}ml de Cerveja</p>`;
-  resultado.innerHTML = `<p>${qtdTotalBebidas}ml de Bebidas</p>`;
+  resultado.innerHTML = `
+    <p>${qtdTotalCarne}g de Carne</p>
+    <p>${qtdTotalCerveja}ml de Cerveja</p>
+    <p>${qtdTotalBebidas}ml de Bebidas</p>
+  `;
 
 }
 
