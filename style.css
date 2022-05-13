@@ -15,18 +15,13 @@
 body{
   width: 100vw;
   height: 100vh;
-
   min-width: 405px;
-}
 
-.test{
-  width: 100%;
-  height: 100vh;
-
-  margin: auto;
+  background-color: var(--main-color);
 
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container{
@@ -35,13 +30,11 @@ body{
 
   background-color: var(--main-color);
 
-  margin: auto;
-
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1em;
 
-  align-items: center;
 }
 
 #container_dados{
@@ -79,5 +72,11 @@ input[type="button"]{
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+footer{
+  width: 100%;
+
+  text-align: center;
 }
 
